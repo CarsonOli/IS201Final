@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - [Your Full Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            margin-bottom: 0.5em;
+            color: #2c3e50; /* Dark blue-grey */
+        }
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            border-bottom: 2px solid #bdc3c7; /* Light grey border */
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #ecf0f1; /* Very light grey border */
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 1.2em;
+            color: #34495e; /* Slightly lighter blue-grey */
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .job, .education-entry {
+            margin-bottom: 15px;
+        }
+        .job-title, .degree-name {
+            font-weight: bold;
+        }
+        .company, .university {
+            font-style: italic;
+            color: #555;
+        }
+        .dates {
+            float: right;
+            font-style: italic;
+            color: #777;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills-list {
+            list-style-type: none; /* Remove bullets for skills */
+            padding-left: 0;
+        }
+        .skills-list li {
+            display: inline-block; /* Display skills side-by-side */
+            background-color: #ecf0f1; /* Light background for skill tags */
+            color: #34495e;
+            padding: 3px 8px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        /* Clearfix for floated dates */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Carson Oliver</h1>
+        <div class="contact-info">
+            oliverc1@byu.edu | Provo, UT | <a href="index.html">Home</a>
+        </div>
+    </header>
+
+    <section class="section experience">
+        <h2>Work Experience</h2>
+
+        <div class="job clearfix">
+            <span class="dates">Sept 2024 – Present</span>
+            <h3 class="job-title">Maintenance / Construction / Renovations</h3>
+            <div class="company">Legend Real Estate, Provo, UT</div>
+            <ul>
+                <li>Perform routine and preventative maintenance on properties.</li>
+                <li>Assist with construction projects and property renovations.</li>
+            </ul>
+        </div>
+
+        <div class="job clearfix">
+             <span class="dates">June 2020 – June 2021</span>
+            <h3 class="job-title">Shift Lead</h3>
+            <div class="company">Bear Creek Country Club, Redmond, WA</div>
+            <ul>
+                <li>Managed driving range operations and golf cart fleet during shifts.</li>
+                <li>Supervised team members, ensuring efficient workflow and customer satisfaction.</li>
+                <li>Handled opening and closing procedures for the range area.</li>
+            </ul>
+        </div>
+        </section>
+
+    <section class="section education">
+        <h2>Education</h2>
+
+         <div class="education-entry clearfix">
+            <span class="dates">Sept 2021 - Present</span> <h3 class="degree-name">Current College Student</h3>
+            <div class="university">Brigham Young University, Provo, UT</div>
+            </div>
+
+        <div class="education-entry clearfix">
+            <span class="dates">2021</span>
+            <h3 class="degree-name">High School Diploma</h3>
+            <div class="university">Cedarcrest Highschool, Duvall, WA</div>
+        </div>
+        </section>
+
+    <section class="section skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Maintenance</li>
+            <li>Construction</li>
+            <li>Renovations</li>
+            <li>SQL</li>
+            <li>VBA</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Hard Working</li>
+            <li>Quick Learner</li>
+            <li>Problem-Solving</li> <li>Teamwork</li> </ul>
+    </section>
+
+    </body>
+</html>

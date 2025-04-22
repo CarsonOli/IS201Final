@@ -1,0 +1,39 @@
+h1{
+    font-size: 120%;
+    border: 2px solid black;
+    background-color: rgba(169, 169, 169, 0.5);
+}
+body{
+    background-color: rgb(251, 242, 232);
+}
+.myimg{
+height: auto;
+width: 25%;
+}
+h2{
+    font-size: 150%;
+}
+
+#backToTopBtn {
+    /* display: none; Hidden by default */
+    position: fixed; /* Keep it in view */
+    bottom: 20px; /* Distance from bottom */
+    right: 30px; /* Distance from right */
+    z-index: 99; /* Make sure it's on top */
+    border: none;
+    outline: none;
+    background-color: #555; /* Example background */
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline from link */
+    transition: opacity 0.3s ease; /* Smooth fade */
+    opacity: 0.7; /* Slightly transparent */
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #333; /* Darker on hover */
+    opacity: 1;
+  }
